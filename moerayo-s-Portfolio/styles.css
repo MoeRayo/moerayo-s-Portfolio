@@ -1,0 +1,161 @@
+html,body{
+    margin: 0;
+    background-color: rgba(211, 211, 211, 0.493);
+}
+* {
+    box-sizing: border-box;
+  }
+
+/* font-family */
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    font-family: 'Courgette', cursive;
+}
+
+/* header section */
+header{
+    padding: 5px;
+    background-color:black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding-left: 20px;
+    text-transform:uppercase;
+    width: 70%;
+}
+
+/* nav section */
+ a{
+    text-decoration: none;
+    color: rgb(243, 152, 14);
+}
+nav a:hover{
+    border-radius: 10px;
+    background-color: black;  
+}
+nav{
+    height: 91px;
+    position: fixed;
+    top: 0; 
+    left:70%;
+    right: 0;
+    opacity: .90;
+    background-color:grey;
+   
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+/* content */
+.ProfilePic{
+    margin: 70px 400px 20px 670px;
+    border-radius: 200px;  
+}
+.headpaint{
+    color:  rgb(243, 152, 14);
+}
+section.sect1{
+    background-color: rgba(0, 0, 0, 0.74);
+    color: white;
+    text-align: center;
+    line-height: 1.5em;
+    padding: 5px 20px 150px 10px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+section.sect2{
+    background-color: white;
+    text-align: center;
+    width: 30%;
+    height: 500px;
+    margin: 0 auto;
+    padding: 50px 10px 10px 10px;
+    border-radius: 10px;
+    margin-top: -90px;
+}
+.paint{
+    color: rgb(243, 152, 14);
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.firstDiv{
+    background-color: black;
+    color: white;
+    margin-top: 200px;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 70px;
+}
+img.secondPic{
+   float: left;
+   margin-right: 15px;
+}
+.specialDiv{
+    display: inline-block;
+    text-align: left;
+    padding: 30px;   
+}
+.specialDiv a{
+    color: rgb(243, 152, 14);
+    text-decoration: underline;
+}
+
+/* footer */
+.blank{
+    background-color: grey;
+    padding: 3px;
+    clear: both; 
+    color:white;
+    text-align: center;
+    font-size: 1em;
+}
+
+/* contact */
+.contactMe{
+    text-align: center;
+    line-height: 2em;
+    font-size: 2em;
+    padding:10px;
+}
+.contactMe p{
+    font-family: 'Ranga', cursive;
+}
+
+/* media query */
+
+/* for mobile phones */
+@media only screen and (max-width:1460px) {
+    header{
+        text-align: center;
+        width:100%;  
+    }
+    .ProfilePic{
+        display: none;
+    }
+        nav{padding: 1px;
+        position: unset;
+        margin-bottom: 40px;
+        opacity: .90;
+        background-color:grey;}
+section.sect2{
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    height: 550px;
+    margin: 0 auto;
+    padding: 30px 10px 10px 10px;
+    border-radius: 10px;
+    margin-top: -90px;}
+}
