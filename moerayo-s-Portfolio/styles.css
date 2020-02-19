@@ -60,7 +60,7 @@ nav li{
 /* content */
 .ProfilePic{
     margin: 70px 400px 20px 670px;
-    border-radius: 200px;  
+     border-radius: 50%;  
 }
 .headpaint{
     color:  rgb(243, 152, 14);
